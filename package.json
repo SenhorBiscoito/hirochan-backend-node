@@ -1,0 +1,45 @@
+{
+  "name": "hirochan",
+  "version": "1.0.0",
+  "description": "Meu nenezinho",
+  "author": "Senhor Biscoito",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "lint": "eslint src --fix --ext .js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "ascii-table": "^0.0.9",
+    "aws-sdk": "^2.686.0",
+    "axios": "^0.19.2",
+    "common-tags": "^1.8.0",
+    "cors": "^2.8.5",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mime": "^2.4.6",
+    "mongoose": "^5.9.16",
+    "mongoose-sequence": "^5.2.2",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4",
+    "random-puppy": "^1.1.0",
+    "youtube-search": "^1.1.4",
+    "ytdl-core-discord": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.21.1",
+    "nodemon": "^2.0.4"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "12.16.2"
+  }
+}
